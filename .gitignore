@@ -1,0 +1,15 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# AfriSenti is downloaded on demand, not redistributed here
+data/
+# trained models are rebuilt by `train`
+models/
